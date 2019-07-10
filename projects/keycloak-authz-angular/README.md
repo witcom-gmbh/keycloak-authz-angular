@@ -47,13 +47,13 @@ In your angular application directory:
 With npm:
 
 ```sh
-npm install --save keycloak-angular@<choosen-version-from-table-above>
+npm install --save keycloak-authz-angular@<choosen-version-from-table-above>
 ```
 
 With yarn:
 
 ```sh
-yarn add keycloak-angular@<choosen-version-from-table-above>
+yarn add keycloak-authz-angular@<choosen-version-from-table-above>
 ```
 
 ## Setup
