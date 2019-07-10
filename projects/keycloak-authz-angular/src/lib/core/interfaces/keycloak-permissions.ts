@@ -1,4 +1,4 @@
-export interface KeycloakResourcePermissions {
+export interface KeycloakResourcePermission {
     
     /**
      * The id of a resource.

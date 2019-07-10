@@ -1,6 +1,6 @@
 {
   "name": "keycloak-authz-angular",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Easy Keycloak Authorizations for Angular applications",
   "private": true,
   "repository": {

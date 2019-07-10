@@ -7,7 +7,7 @@ import t from 'typy';
 import {KeycloakAuthzOptions} from '../interfaces/keycloak-authz-options';
 import {KeycloakAuthzInitOptions} from '../interfaces/keycloak-authz-init-options';
 import {KeycloakAuthorizationRequest,ResourcePermission, KeycloakAuthorizationRequestMetaData} from '../interfaces/keycloak-authorization-request';
-import {KeycloakResourcePermissions,KeycloakResourcePermissionsCheck} from '../interfaces/keycloak-permissions';
+import {KeycloakResourcePermission,KeycloakResourcePermissionsCheck} from '../interfaces/keycloak-permissions';
 
 /**
  * Custom parameter codec to correctly handle the plus sign in parameter
@@ -192,7 +192,7 @@ export class KeycloakAuthorizationService {
    * 
    * @returns Array of permissions
    */
-  public getPermissions():KeycloakResourcePermissions[]{
+  public getPermissions():KeycloakResourcePermission[]{
       return this._permissions;
       
   }
